@@ -2,7 +2,7 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-Results
+    Results Decision Task 1
 {% endblock %}
 
 {% block content %}
@@ -10,15 +10,14 @@ Results
 
     <div class="row">
         <div class="col-md-12">
-          <p>We will inform you of the results of this task at the conclusion of this online experiment.</p>
-            <p>This is the only decision task today where payment is delayed and the only task denominated in points.
-                The remaining paid decision tasks will be denominated in Euros, and will be
-                paid soon after your completion of this experiment.</p>
-          <p>Please press next to proceed to the next decision task.</p>
+            {% include "time_preferences/table.html" %}
         </div>
     </div>
+
     <div class="row">
-      <div class="col-md-12 lead">
+        <div class="col-md-12 lead">
+            <p>The computer randomly selected <strong class="text-info">{{player.selected_decision}}</strong>, so your payoff is for
+            decision <strong class="text-info">{{option}}</strong></p>
         </div>
     </div>
 

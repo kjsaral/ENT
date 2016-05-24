@@ -16,6 +16,8 @@ if environ.get('OTREE_PRODUCTION') not in {None, '', '0'}:
 else:
     DEBUG = True
 
+
+
 ADMIN_USERNAME = 'admin'
 ADMIN_PASSWORD = 'otree'
 
@@ -129,6 +131,12 @@ SESSION_CONFIG_DEFAULTS = {
 
 SESSION_CONFIGS = [
     {
+        'name': 'login',
+        'display_name': "Login",
+        'num_demo_participants': 1,
+        'app_sequence': ['login']
+    },
+    {
         'name': 'time_preferences',
         'display_name': "Time Preferences",
         'num_demo_participants': 1,
@@ -154,10 +162,23 @@ SESSION_CONFIGS = [
     },
     {
         'name': 'eyes_mind',
-        'display_name': "Readng the Mind in the Eyes",
+        'display_name': "Reading the Mind in the Eyes",
         'num_demo_participants': 1,
         'app_sequence': ['eyes_mind'],
     },
+      {
+        'name': 'final_results',
+        'display_name': "Final Results",
+        'num_demo_participants': 1,
+        'app_sequence': ['final_results'],
+    },
+    {
+        'name': 'online_experiment',
+        'display_name': "Online Experiment",
+        'num_demo_participants': 1,
+        'app_sequence': ['login','time_preferences','risk_aversion','preference_for_skew','lie_aversion','eyes_mind','final_results'],
+    },
+
 
 ]
 
