@@ -24,11 +24,13 @@ Decision Task 3
 <div id="realcontent" class="hide">
     <h5>{{subtitle}}</h5>
     <script type="text/javascript" src="http://kozea.github.com/pygal.js/latest/pygal-tooltips.min.js"></script>
+    <div id="realcontent" class="hide" style="width:70%; height:70%;"> 
     <figure size="">
         <!-- Pygal render() result: -->
         {{graph|safe}}
         <!-- End of Pygal render() result: -->
     </figure>
+    </div>
     <table class="table table-hover">
         {% for skew_choices in choices %}
         <tr class="skewrow {% if not forloop.last %}disabledbg{%endif%}">
