@@ -130,48 +130,48 @@ SESSION_CONFIG_DEFAULTS = {
 
 
 SESSION_CONFIGS = [
-    {
-        'name': 'login',
-        'display_name': "Login",
-        'num_demo_participants': 1,
-        'app_sequence': ['login']
-    },
-    {
-        'name': 'time_preferences',
-        'display_name': "Time Preferences",
-        'num_demo_participants': 1,
-        'app_sequence': ['time_preferences'],
-    },
-    {
-        'name': 'risk_aversion',
-        'display_name': "Risk Aversion",
-        'num_demo_participants': 1,
-        'app_sequence': ['risk_aversion'],
-    },
-    {
-        'name': 'preference_for_skew',
-        'display_name': "Preference For Skew",
-        'num_demo_participants': 1,
-        'app_sequence': ['preference_for_skew'],
-    },
-    {
-        'name': 'lie_aversion',
-        'display_name': "Lie Aversion",
-        'num_demo_participants': 1,
-        'app_sequence': ['lie_aversion'],
-    },
-    {
-        'name': 'eyes_mind',
-        'display_name': "Reading the Mind in the Eyes",
-        'num_demo_participants': 1,
-        'app_sequence': ['eyes_mind'],
-    },
-      {
-        'name': 'final_results',
-        'display_name': "Final Results",
-        'num_demo_participants': 1,
-        'app_sequence': ['final_results'],
-    },
+    #~ {
+        #~ 'name': 'login',
+        #~ 'display_name': "Login",
+        #~ 'num_demo_participants': 1,
+        #~ 'app_sequence': ['login']
+    #~ },
+    #~ {
+        #~ 'name': 'time_preferences',
+        #~ 'display_name': "Time Preferences",
+        #~ 'num_demo_participants': 1,
+        #~ 'app_sequence': ['time_preferences'],
+    #~ },
+    #~ {
+        #~ 'name': 'risk_aversion',
+        #~ 'display_name': "Risk Aversion",
+        #~ 'num_demo_participants': 1,
+        #~ 'app_sequence': ['risk_aversion'],
+    #~ },
+    #~ {
+        #~ 'name': 'preference_for_skew',
+        #~ 'display_name': "Preference For Skew",
+        #~ 'num_demo_participants': 1,
+        #~ 'app_sequence': ['preference_for_skew'],
+    #~ },
+    #~ {
+        #~ 'name': 'lie_aversion',
+        #~ 'display_name': "Lie Aversion",
+        #~ 'num_demo_participants': 1,
+        #~ 'app_sequence': ['lie_aversion'],
+    #~ },
+    #~ {
+        #~ 'name': 'eyes_mind',
+        #~ 'display_name': "Reading the Mind in the Eyes",
+        #~ 'num_demo_participants': 1,
+        #~ 'app_sequence': ['eyes_mind'],
+    #~ },
+      #~ {
+        #~ 'name': 'final_results',
+        #~ 'display_name': "Final Results",
+        #~ 'num_demo_participants': 1,
+        #~ 'app_sequence': ['final_results'],
+    #~ },
     {
         'name': 'online_experiment',
         'display_name': "Online Experiment",
