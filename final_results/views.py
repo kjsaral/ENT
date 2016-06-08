@@ -55,7 +55,7 @@ class final_payoff(Page):
         pfs_player = self.player.participant.preference_for_skew_player.first()
         la_player = self.player.participant.lie_aversion_player.first()
         final_payoff = (
-            (tp_player.payoff/5) + ra_player.payoff +
+            (tp_player.payoff/20) + ra_player.payoff +
             pfs_player.payoff + la_player.payoff)
         return {"final_payoff": final_payoff}
 
